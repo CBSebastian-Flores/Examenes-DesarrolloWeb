@@ -18,6 +18,7 @@ header {
     z-index: 1;
 
     background-color: white;
+    padding-bottom: 10px;
 }
 
 .seleccionado{
@@ -124,17 +125,17 @@ hr{
 
 /* CONTENIDO GALERIA */
 
-#imagenes{
+#galeria{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
-.imagen{
+#galeria > figure{
     padding: 10px 25px;
 }
 
-.imagen img{
+#galeria > figure > img{
     border-radius: 10px;
     width: 260px;
 
@@ -144,14 +145,14 @@ hr{
     box-shadow: 5px 5px 5px ;
 }
 
-.imagen img:hover{
+#galeria > figure > img:hover{
     filter: grayscale(0%);
     border-radius: 10px;
 
     cursor: pointer;
 }
 
-.imagen p{
+#galeria > figure > figcaption{
     padding: 20px 0px;
     color: gray;
     font-style: italic;
