@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/Logo.png" type="image/x-icon">
+    <title>Helados La Cumbre</title>
+    <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/paginas.css">
+    <link rel="stylesheet" href="./css-icons/all.css">
+</head>
+
+<body>
+    <div id="contenedor">
+        <header>
+            <h1 id="titulo">Helados La Cumbre</h1>
+            <nav id="menu">
+                <ul id="menu-section">
+                    <li><a href="./index.html"><i class="fa-solid fa-heart"></i> INICIO</a></li>
+                    <li><a href="./nosotros.html"><i class="fa-solid fa-user-group"></i> NOSOTROS</a></li>
+                    <li><a href="./blog.html"><i class="fa-solid fa-pen"></i> BLOG</a></li>
+                    <li><a href="./galeria.html"><i class="fa-solid fa-image"></i> GALERIA</a></li>
+                    <li><a href="./video.html"><i class="fa-solid fa-video"></i> VIDEO</a></li>
+                    <li class="seleccionado"><a href="./contactos.html"><i class="fa-solid fa-address-card"></i>
+                            CONTACTOS</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main id="main-contactos">
+            <div id="info-contactos">
+                <div id="datos-contactos">
+                    <div id="informacion-contacto">
+                        <h3>Información De Contacto</h3>
+                        <table>
+                            <tr>
+                                <th>Direccón:</th>
+                                <td>Jr. Carabaya 552 - Lima Perú <br> Jr.Camaná 758 - Lima Perú</td>
+                            </tr>
+                            <tr>
+                                <th>Telefonos:</th>
+                                <td>997 577 470 | 980 978 484 | (01) 5335242</td>
+                            </tr>
+                            <tr>
+                                <th>Email:</th>
+                                <td>info@fiftycoffes.com</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div id="horario-atencion">
+                        <h3>Horario de Atención Presencial</h3>
+                        <div>
+                            <p>Aarea Ventas:</p>
+                            <p>De Lunes a Viernes de 8am a 6pm</p>
+                        </div>
+                    </div>
+                    <div id="imagen-contactos">
+                        <img src="https://th.bing.com/th/id/OIP.uyNuuG0hqu5xNC53rSe4ZQHaE7?rs=1&pid=ImgDetMain"
+                            alt="imagen manos" width="100%" height="100%">
+                    </div>
+                </div>
+                <div id="comentarios-contactos">
+                    <h3>Dejanos tu comentario</h3>
+                    <form name="pasaje-busqueda" method="get">
+                        <div class="formulario-datos">
+                            <p>Nombre y Apellido</p>
+                            <input type="text" name="nombrecompleto">
+                        </div>
+                        <div class="formulario-datos">
+                            <p>Celular*</p>
+                            <input type="tel" name="telefono" placeholder="999 999 999" required>
+                        </div>
+                        <div class="formulario-datos">
+                            <p>Correo electronico*</p>
+                            <input type="email" name="email" placeholder="nombre@dominio.com" required>
+                        </div>
+                        <div class="formulario-datos">
+                            <p>RUC - Empresa (Opcional)</p>
+                            <input type="number" name="ruc">
+                        </div>
+                        <div class="formulario-datos">
+                            <p>Mensaje</p>
+                            <textarea id="mensaje" name="mensaje" rows="8" required minlength="12"
+                                placeholder="Detalla tu experiencia a continuación como punto de inicio"></textarea>
+                        </div>
+                        <div class="boton">
+                            <input type="submit" value="CONSULTAR" class="btn">
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div id="mapa-contactos">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3901.9181001500783!2d-77.03478412418531!3d-12.049155941946758!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c8b634d43951%3A0xf40af81fb4d29242!2sJir%C3%B3n%20Carabaya%20552%2C%20Lima%2015001!5e0!3m2!1ses!2spe!4v1718517495588!5m2!1ses!2spe"
+                    width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </main>
+        <footer>
+            <nav id="menu-redes">
+                <ul id="menu-area-redes">
+                    <li><a href="https://x.com/lacumbresalceda" class="redes" target="_blank"><i
+                                class="fa-brands fa-x-twitter"></i></a></li>
+                    <li><a href="https://www.facebook.com/heladoslacumbre" class="redes" target="_blank"><i
+                                class="fa-brands fa-facebook-f" style="width: 17px;"></i></a></li>
+                    <li><a href="https://www.instagram.com/heladoslacumbre/" class="redes" target="_blank"><i
+                                class="fa-brands fa-instagram"></i></a></li>
+                </ul>
+            </nav>
+        </footer>
+    </div>
+</body>
+
+</html>
