@@ -1,0 +1,17 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.rowdies{
+    font-family: 'Rowdies';
+}
+
+.monospace{
+    font-family: monospace;
+}
+
+.color-2{
+    background-color: #0C395B;
+}
